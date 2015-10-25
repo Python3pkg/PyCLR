@@ -26,14 +26,6 @@ codes = {"reset": [0, 0],
          "bgMagenta": [45, 49],
          "bgCyan": [46, 49],
          "bgWhite": [47, 49],
-         "blackBG": [40, 49],
-         "redBG": [41, 49],
-         "greenBG": [42, 49],
-         "yellowBG": [43, 49],
-         "blueBG": [44, 49],
-         "magentaBG": [45, 49],
-         "cyanBG": [46, 49],
-         "whiteBG": [47, 49],
          }
 
 for key in codes:
