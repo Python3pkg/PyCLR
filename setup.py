@@ -2,9 +2,9 @@ from setuptools import setup, find_packages
 
 setup(
     name='pyclr',
-    version='0.0.4',
-    description='Easy colours in your terminal.',
-    long_description='Easy colours in your terminal.',
+    version='0.0.5',
+    description='Easy colors in your terminal.',
+    long_description='Easy colors in your terminal.',
 
     url='https://github.com/ScottehMax/PyCLR',
 

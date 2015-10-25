@@ -1,6 +1,9 @@
 from .sequences import styles
 
 
+finished_styles = {}
+
+
 def func_builder(style):
     def func(s):
         return styles[style]['open'] + s + styles[style]['close']
@@ -9,4 +12,4 @@ def func_builder(style):
 
 
 for style in styles:
-    globals()[style] = func_builder(style)
+    finished_styles[style] = func_builder(style)
