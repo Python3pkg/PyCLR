@@ -31,5 +31,5 @@ codes = {"reset": [0, 0],
 for key in codes:
     val = codes[key]
     style = styles[key] = {}
-    style['open'] = u'\u001b' + '[' + str(val[0]) + 'm'
-    style['close'] = u'\u001b' + '[' + str(val[1]) + 'm'
+    style['open'] = '\u001b' + '[' + str(val[0]) + 'm'
+    style['close'] = '\u001b' + '[' + str(val[1]) + 'm'
